@@ -1,0 +1,25 @@
+{
+    "workbench.iconTheme": "vs-nomo-dark",
+    "workbench.startupEditor": "newUntitledFile",
+    "php.validate.executablePath": "D:\\phpStudy\\php\\php-7.0.12-nts\\php.exe",
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "extensions.ignoreRecommendations": false,
+    "git.autofetch": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "expand",
+    "terminal.integrated.cursorBlinking": true,
+    "debug.allowBreakpointsEverywhere": true,
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true
+    },
+    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "editor.tabCompletion": true,
+    "translation.fromLanguage": "zh",
+    "translation.targetLanguage": "en",
+    "workbench.colorTheme": "Visual Studio Dark"
+}
