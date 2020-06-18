@@ -1,25 +1,105 @@
 {
     "workbench.iconTheme": "vs-nomo-dark",
     "workbench.startupEditor": "newUntitledFile",
-    "php.validate.executablePath": "D:\\phpStudy\\php\\php-7.0.12-nts\\php.exe",
+    "php.validate.executablePath": "E:/php-7.2.8-ts/php.exe",
     "files.autoSave": "afterDelay",
     "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-    "extensions.ignoreRecommendations": false,
+    "extensions.ignoreRecommendations": true,
     "git.autofetch": true,
-    "editor.renderWhitespace": "boundary",
+    "git.path": "E:\\Git\\bin\\git.exe",
+    // "editor.renderWhitespace": "boundary",
     "editor.cursorStyle": "line",
     "editor.cursorBlinking": "expand",
     "terminal.integrated.cursorBlinking": true,
     "debug.allowBreakpointsEverywhere": true,
-    "[go]": {
-        "editor.insertSpaces": false,
-        "editor.formatOnSave": true
-    },
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "JetBrains Mono, 'Courier New', monospace",
     "workbench.statusBar.visible": true,
     "workbench.activityBar.visible": true,
-    "editor.tabCompletion": true,
-    "translation.fromLanguage": "zh",
-    "translation.targetLanguage": "en",
-    "workbench.colorTheme": "Visual Studio Dark"
+    "debug.toolBarLocation": "floating",
+    "terminal.integrated.rendererType": "dom",
+    "php.suggest.basic": false,
+    "php.validate.enable": false,
+    "emmet.excludeLanguages": [
+        "markdown",
+        "php"
+    ],
+    "editor.rulers": [
+        120
+    ],
+    "files.defaultLanguage": "php",
+    "explorer.autoReveal": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.lineHeight": 24,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.fontSize": 13,
+    "editor.quickSuggestions": {
+        "strings": true
+    },
+    "workbench.sideBar.location": "left",
+    "vetur.validation.template": false,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[php]": {
+        "editor.defaultFormatter": "junstyle.php-cs-fixer"
+    },
+    "editor.renderIndentGuides": false,
+    "files.associations": {
+    
+        "*.cjson": "jsonc",
+        "*.wxss": "css",
+        "*.wxs": "javascript"
+    },
+    "emmet.includeLanguages": {
+        "wxml": "html"
+    },
+    "git.ignoreLegacyWarning": true,
+    "remote.SSH.remotePlatform": {
+        "安康电信发券": "linux",
+        "安康公交": "linux",
+        "沣西一小": "linux"
+    },
+    "workbench.colorTheme": "One Light Pro",
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.executablePathWindows": "C:\\Users\\Lesli\\AppData\\Roaming\\Composer\\vendor\\bin\\php-cs-fixer.bat",
+    "php-cs-fixer.exclude": [
+    
+    ],
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
+    "php-cs-fixer.lastDownload": 1592445472032,
+    "workbench.list.smoothScrolling": true,
+    "search.followSymlinks": false,
+    "[vue]": {
+        "editor.defaultFormatter": "octref.vetur"
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+          {
+            "name": "Comment",
+            "scope": [
+              "comment",
+              "comment.block",
+              "comment.block.documentation",
+              "comment.line",
+              "comment.line.double-slash",
+              "punctuation.definition.comment",
+            ],
+            "settings": {
+              "fontStyle": "",
+              // 斜体 "fontStyle": "italic",
+              // 斜体下划线 "fontStyle": "italic underline",
+              // 斜体粗体下划线 "fontStyle": "italic bold underline",
+            }
+          },
+        ]
+      },
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
 }
