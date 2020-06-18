@@ -1,3 +1,5 @@
+<h1 align="center">VS Code Settings</h1>
+
 - 浅色护眼主题
 ```json
 "workbench.colorTheme": "Slime",
